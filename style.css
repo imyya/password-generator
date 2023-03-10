@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.notif{
+    background-color: brown;
+    width:5rem;
+    border-radius: 1rem;
+    height: 2rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    position:absolute;
+    left:50%;
+    top:0;
+    transform: translate(-50%,-50%) ;
+    transition:transform 0.1s, top 0.1s;
+    visibility: hidden;
+}
+.notifUP{
+    visibility: visible;
+    top:3%;
+   transform: translate(-60%,-50%) scale(1.5)
+}
+
+
+
+.container{
+    background-color: rgb(69, 5, 128);
+    width: 30%;
+    margin: 0 auto;
+    height: 50vh;
+    margin-top: 4.6rem;
+    display: flex;
+    justify-content: center;
+    padding:1rem;
+    position: relative;
+   
+}
+.container2{
+    background-color: rgb(46, 17, 74);
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:1rem;
+    z-index: 0;
+
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+button{
+    width:3rem;
+    height: 4rem;
+}
+.pw{
+    
+    height: 5rem;
+    background-color: rgb(191, 182, 199);
+    display: flex;
+    justify-content: center;
+    color:rgb(26, 8, 44);
+    font-size: 1.5rem;
+    z-index: 1;
+}
+.copy{
+    position: absolute;
+    text-align: center;
+    width:4.5rem;
+    background-color: aliceblue;
+    height:2rem;
+    top:10%;
+    right:3%;
+    visibility: hidden;
+    box-shadow: 2px 2px 2px  rgb(59, 52, 52);
+    z-index: 1;
+}
+.copied{
+    position: absolute;
+    text-align: center;
+    width:4.5rem;
+    height:2rem;
+    color: rgb(10, 10, 10);
+    top:15%;
+    right:3%;
+    z-index: 1;
+    visibility: hidden;    
+}
+.autre{
+    display: flex;
+    justify-content: space-between;
+}
+label{
+    font-size: 1.5rem;
+    color: azure;
+    font-weight: bold;
+}
+
+input{
+    width:10%;
+    height: 100%;
+}
+.generButn{
+    width:100%;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(100, 80, 118);
+    border-radius: 10px;
+}
